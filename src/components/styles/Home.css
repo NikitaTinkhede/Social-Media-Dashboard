@@ -1,0 +1,175 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.main {
+    width: 100%;
+    height: 700px;
+    background-color: #fff;
+}
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to right, #e2e7ef, #edeeef);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Navbar brand */
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    border-radius: 10px;
+    padding: 5px 5px;
+    background: linear-gradient(to right, #d5b1c2, #a91717);
+}
+
+/* Navbar Links */
+.Link {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.Link:hover {
+    text-decoration: underline;
+}
+
+/* Search Bar Container */
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 220px;
+}
+
+/* Search Box */
+.search-box {
+    width: 100%;
+    height: 35px;
+    padding: 5px 10px 5px 40px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+.search-box:hover, .search-box:focus {
+    border-color: #141e30;
+    box-shadow: 0px 0px 5px rgba(20, 30, 48, 0.5);
+}
+
+
+.icon-1 {
+    position: absolute;
+    right: 110px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/622/622669.png'); /* Search icon */
+    background-size: cover;
+}
+
+/* Content Box */
+.content-box {
+    position: fixed;
+    top: 0;
+    margin-top: 60px;
+    width: 100%;
+    height: 100vh;
+    border-radius: 10px;
+}
+
+/* Inner Content */
+.inner-content {
+    width: 60%;
+    height: 100vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+    border-radius: 10px;
+}
+
+/* List Styles */
+li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/2099/2099058.png'); /* Right-click icon */
+    background-size: cover;
+}
+
+
+.box {
+    list-style-type: none; 
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+/* List Item Font */
+.li-font {
+    font-size: 20px;
+}
+
+/* Navigation Bar Alignment */
+/* .bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-end;
+} */
+.images{
+    position: absolute;
+    right: 35%;
+    bottom: 30%;
+}
+/* Fix navbar at top */
+.nv1 {
+    height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    z-index: 1000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.605); 
+}
+
+
+.main-home {
+   margin-top: -130px;
+    padding: 20px;
+    height: 600px;
+    
+    padding-bottom: 0px; 
+}
+
+
+
+

@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.Setting-2{
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #b4c0ca, #d2bcb55a);
+  
+}
+
+.settings-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* background-color: #fff; */
+}
+
+.set {
+  width: 90%;
+  max-width: 800px;
+  background-color: #ffffffa3;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.settings-title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.custom-btn {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-btn:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.edit-profile-card {
+  border: none;
+  padding: 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  background: #fff;
+}
+
+.profile-pic-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #007bff;
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-pic:hover {
+  transform: scale(1.05);
+}
+
+.profile-pic-container::after {
+  content: "📷";
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 16px;
+  padding: 6px;
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.profile-pic-container:hover::after {
+  opacity: 1;
+}
+
+.hidden-input {
+  display: none;
+}
+
+form .form-label {
+  font-weight: 500;
+  color: #333;
+}
+
+.form-control {
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.w-100 {
+  margin-top: 10px;
+}
+
+.social-accounts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.social-card {
+  text-align: center;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.social-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.social-logo {
+  width: 50px;
+  height: 50px;
+  margin: 10px auto;
+}
+
+.platform-name {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.analytics-card {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease-in-out;
+}
+
+.analytics-card:hover {
+  transform: translateY(-5px);
+}
+
+.analytics-section h5 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.analytics-section p {
+  font-size: 14px;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .settings-card {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+  }
+
+  .custom-btn {
+    font-size: 14px;
+  }
+}
+
+   
+  
